@@ -1,0 +1,16 @@
+PODS:
+  - Unidirectional (0.1.0)
+
+DEPENDENCIES:
+  - Unidirectional (from `../`)
+
+EXTERNAL SOURCES:
+  Unidirectional:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Unidirectional: 36f5a029bdc58e905378e901668ad13df2aceda8
+
+PODFILE CHECKSUM: 44777d172aa0303e468f10cfc20169332bc08757
+
+COCOAPODS: 1.5.3

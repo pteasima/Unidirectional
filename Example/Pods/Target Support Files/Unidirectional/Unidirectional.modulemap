@@ -1,0 +1,6 @@
+framework module Unidirectional {
+  umbrella header "Unidirectional-umbrella.h"
+
+  export *
+  module * { export * }
+}

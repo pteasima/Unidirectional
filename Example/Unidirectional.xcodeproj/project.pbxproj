@@ -43,10 +43,10 @@
 		7015EB4A738F7629B0FC4692 /* Pods-Unidirectional_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unidirectional_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Unidirectional_Tests/Pods-Unidirectional_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		90F3D33D56002A40CE1A53B5 /* Pods_Unidirectional_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unidirectional_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E4F951A2CC9D99C7207D43 /* Pods-Unidirectional_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unidirectional_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Unidirectional_Example/Pods-Unidirectional_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CE23598C98B749CD13175086 /* Unidirectional.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Unidirectional.podspec; path = ../Unidirectional.podspec; sourceTree = "<group>"; };
+		CE23598C98B749CD13175086 /* Unidirectional.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Unidirectional.podspec; path = ../Unidirectional.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D90F94419503069818A599CF /* Pods_Unidirectional_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unidirectional_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E72A7A06C6C2559F6A087618 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FEFE7F48ECB2C76BFAA8A1B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E72A7A06C6C2559F6A087618 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FEFE7F48ECB2C76BFAA8A1B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
