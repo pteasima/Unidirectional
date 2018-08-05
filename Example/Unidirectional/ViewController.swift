@@ -7,18 +7,30 @@
 //
 
 import UIKit
+import Unidirectional
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, Observer {
+  typealias State = App.State
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+  func update(state: State) {
+    incrementButton.setTitle(String(describing: state.value), for: .normal)
+  }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+  @IBOutlet weak var incrementButton: UIButton!
+  override func viewDidLoad() {
+    super.viewDidLoad()
 
+    update(state: store.state)
+    store.addObserver(self)
+  }
+
+  override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
+    // Dispose of any resources that can be recreated.
+  }
+
+  @IBAction func incrementTapped() {
+    store.dispatch(.increment)
+  }
 }
 

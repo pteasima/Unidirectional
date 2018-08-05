@@ -7,6 +7,27 @@
 //
 
 import UIKit
+import Unidirectional
+
+//Counter app
+enum App {
+  struct State {
+    var value: Int = 0
+  }
+  enum Action {
+    case increment
+  }
+
+  static func reduce<E: Effect>(state: inout State, action: Action) -> E where E.Action == Action {
+    switch action {
+    case .increment:
+      state.value += 1
+    }
+    return .empty
+  }
+}
+
+var store: Store<App.State, App.Action>! = Store(effect: RunEffect.self, initialState: .init(), reduce: App.reduce)
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

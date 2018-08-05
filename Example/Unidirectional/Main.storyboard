@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Yib-H0-4e1">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Ncy-v7-spG">
+            <objects>
+                <viewController id="Yib-H0-4e1" customClass="ViewController" customModule="Unidirectional_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0m2-hb-NUa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SF7-J3-Q4F">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="incrementTapped" destination="Yib-H0-4e1" eventType="touchUpInside" id="SzG-Wo-0yk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SF7-J3-Q4F" firstAttribute="bottom" secondItem="7K9-ze-8nf" secondAttribute="bottom" id="OIh-zh-TIP"/>
+                            <constraint firstItem="SF7-J3-Q4F" firstAttribute="leading" secondItem="7K9-ze-8nf" secondAttribute="leading" id="ctG-hu-9oc"/>
+                            <constraint firstItem="SF7-J3-Q4F" firstAttribute="top" secondItem="7K9-ze-8nf" secondAttribute="top" id="z1G-NX-Bz7"/>
+                            <constraint firstItem="SF7-J3-Q4F" firstAttribute="trailing" secondItem="7K9-ze-8nf" secondAttribute="trailing" id="zak-5S-CZF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7K9-ze-8nf"/>
+                    </view>
+                    <connections>
+                        <outlet property="incrementButton" destination="SF7-J3-Q4F" id="vOL-Bf-FGi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fbu-fw-522" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="97" y="111"/>
+        </scene>
+    </scenes>
+</document>
