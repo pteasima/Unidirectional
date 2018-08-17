@@ -11,7 +11,7 @@ import Foundation
 public protocol Effect {
   associatedtype Action
 
-  typealias Run<Action> = (Dispatch<Action>) -> ()
+  typealias Run<Action> = (@escaping Dispatch<Action>) -> ()
   var run: Run<Action> { get }
   init(run: @escaping Run<Action>)
 
