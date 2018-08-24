@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/Unidirectional.svg?style=flat)](https://cocoapods.org/pods/Unidirectional)
 [![License](https://img.shields.io/cocoapods/l/Unidirectional.svg?style=flat)](https://cocoapods.org/pods/Unidirectional)
 [![Platform](https://img.shields.io/cocoapods/p/Unidirectional.svg?style=flat)](https://cocoapods.org/pods/Unidirectional)
+[![codebeat badge](https://codebeat.co/badges/8c00fec2-3cf3-489a-b070-a0ca147051a6)](https://codebeat.co/projects/github-com-pteasima-unidirectional-master)
 
 ## Example
 
